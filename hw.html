@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="./bootstrap/bootstrap.bundle.min.js">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+</head>
+<body>
+  <script>
+    var film ={
+    mm : [
+       {Film:"Mission: Impossible",Director:"Christopher McQuarrie",Top_actor:"Tom Cruise"},
+       {Film:"Welad Rizk 3",Director:"Tarek Alarian",Top_actor:" Ahmed Ezz"},
+       {Film:"Ex Meraty",Director:"Moataz El Tony",Top_actor:" Hisham Maged"}
+    ]   
+   }
+  </script>
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Film</th>
+        <th scope="col">Director</th>
+        <th scope="col">Top_actor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><script>document.write(film.mm[0].Film)</script></td>
+        <td><script>document.write(film.mm[0].Director)</script></td>
+        <td><script>document.write(film.mm[0].Top_actor)</script></td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><script>document.write(film.mm[1].Film)</script></td>
+        <td><script>document.write(film.mm[1].Director)</script></td>
+        <td><script>document.write(film.mm[1].Top_actor)</script></td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><script>document.write(film.mm[2].Film)</script></td>
+        <td><script>document.write(film.mm[2].Director)</script></td>
+        <td><script>document.write(film.mm[2].Top_actor)</script></td>
+      </tr>
+    </tbody>
+  </table>
+
+    <script src="./hw.js">
+    </script>
+
+</body>
+</html>
